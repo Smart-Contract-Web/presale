@@ -222,7 +222,7 @@ contract MainSale is Ownable {
 
         uint256 tokens = _value.mul(1e18).div(buyPrice); // 64 %
 
-        uint256 bonusTokens = tokens.mul(5).div(100); // + 5% за стадию распродажи
+        uint256 bonusTokens = tokens.mul(5).div(100); // + 5% 
         tokens = tokens.add(bonusTokens);
 
         token.transferFromICO(_investor, tokens);
