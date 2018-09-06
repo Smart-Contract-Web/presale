@@ -1,7 +1,7 @@
 'use-strict';
 var temp = require("temp").track();
 const path = require('path');
-
+const path = require('path')
 
 
 var Web3EthContract = require('web3-eth-contract');
